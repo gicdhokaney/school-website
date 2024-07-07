@@ -1,7 +1,7 @@
 
 
 # preview ->
-https://gicdhokaney.github.io/school-website/
+ https://gicdhokaney.github.io/school-website/
 
 
 
