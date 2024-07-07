@@ -1,7 +1,7 @@
 
 
 # preview ->
-https://gniruthian.github.io/AUGIC Dhokaney/
+https://gicdhokaney.github.io/school-website/
 
 
 
