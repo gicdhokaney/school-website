@@ -25,6 +25,7 @@ section {
 #icon {
     width: 30px;
     cursor: pointer;
+    
 }
 
 .btn {
@@ -162,12 +163,16 @@ section {
 
 .home .image img {
     width: 30%;
+    position: relative;
+    left: 10px;
 }
 
 .home .content {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 42rem;
-    flex: 1 1 42rem;
+    flex: 1 1 95rem;
+    position: relative;
+    left: 0px;
 }
 
 .home .content h3 {
