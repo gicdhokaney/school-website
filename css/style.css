@@ -193,7 +193,8 @@ section {
     -ms-flex: 1 1 42rem;
     flex: 1 1 95rem;
     position: relative;
-    left: 0px;
+    left: 0px
+    top: 530px;
 }
 
 .home .content h3 {
@@ -215,6 +216,8 @@ section {
     -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     gap: 1.5rem;
+    position: relative;
+    top: 530px;
 }
 
 .category .box {
@@ -743,6 +746,8 @@ section {
 
 .footer {
     background: #f5f5f5;
+    position: relative;
+    top: 530px;
 }
 
 .footer .box-container {
