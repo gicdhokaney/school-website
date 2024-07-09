@@ -137,7 +137,7 @@ section {
 }
 
 .back-video{
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     z-index: -1;
@@ -194,7 +194,7 @@ section {
     flex: 1 1 95rem;
     position: relative;
     left: 0px
-    top: 530px;
+    top: 0px;
 }
 
 .home .content h3 {
@@ -217,7 +217,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     gap: 1.5rem;
     position: relative;
-    top: 530px;
+    top: 0px;
 }
 
 .category .box {
@@ -747,7 +747,7 @@ section {
 .footer {
     background: #f5f5f5;
     position: relative;
-    top: 530px;
+    top: 0px;
 }
 
 .footer .box-container {
