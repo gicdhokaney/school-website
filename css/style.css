@@ -136,6 +136,49 @@ section {
     width: 100%;
 }
 
+media (max-width: 768px) {
+    .header .navbar {
+        display: none; /* Hide navbar initially */
+    }
+    
+    .header .navbar.active {
+        display: block; /* Show navbar when active */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #224bcf;
+    }
+    
+    .header .navbar ul {
+        display: block; /* Stack the navbar items vertically */
+        text-align: center;
+    }
+    
+    .header .navbar ul li {
+        display: block; /* Make list items block elements */
+        margin: 0;
+    }
+    
+    .header .navbar ul li a {
+        padding: 1rem;
+    }
+    
+    #menu-btn {
+        display: block; /* Show the menu button */
+        cursor: pointer;
+    }
+}
+
+/* Styles for the menu button */
+#menu-btn {
+    display: none; /* Hide the menu button by default */
+    background: url('images/logo.png') no-repeat center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
 .back-video{
     width: 100%;
     height: auto;
