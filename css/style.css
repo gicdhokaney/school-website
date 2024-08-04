@@ -138,10 +138,12 @@ section {
 
 .back-video{
     position: relative;
-    right: 200px;
-    bottom: 0;
-    z-index: -1;
-    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    
 }
 
 @media (min-aspect-ratio:16/9){
