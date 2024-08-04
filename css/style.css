@@ -146,6 +146,15 @@ section {
     
 }
 
+.back-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the whole video fits within the container */
+}
+
 @media (min-aspect-ratio:16/9){
     .back-video{
         max-width: 100%;
