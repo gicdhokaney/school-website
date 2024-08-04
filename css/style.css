@@ -95,18 +95,6 @@ section {
     align-items: center;
 }
 
-.header .logo img {
-    width: 50px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between logo image and text */
-}
-
-.header .logo span {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: #fff;
-}
-
 .header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
@@ -190,7 +178,7 @@ media (max-width: 768px) {
 /* Styles for the menu button */
 #menu-btn {
     display: none; /* Hide the menu button by default */
-    background: url('images/logo.png') no-repeat center;
+    background: url('images/logo1.png') no-repeat center;
     background-size: contain;
     width: 40px;
     height: 40px;
