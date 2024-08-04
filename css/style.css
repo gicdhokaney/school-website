@@ -91,6 +91,23 @@ section {
 }
 
 .header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo image and text */
+}
+
+.header .logo span {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
     color: #fff;
@@ -149,23 +166,6 @@ media (max-width: 768px) {
         width: 100%;
         background: #224bcf;
     }
-
-    .header .logo {
-    display: flex;
-    align-items: center;
-}
-
-.header .logo img {
-    width: 50px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between logo image and text */
-}
-
-.header .logo span {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: #fff;
-}
     
     .header .navbar ul {
         display: block; /* Stack the navbar items vertically */
