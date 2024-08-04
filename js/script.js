@@ -23,3 +23,11 @@ document.querySelectorAll('.course-3 .box .video video').forEach(vid =>{
 document.querySelector('#close-vid').onclick = () =>{
     mainVid.classList.remove('active');
 }
+document.addEventListener('DOMContentLoaded', function () {
+    const menuBtn = document.getElementById('menu-btn');
+    const navbar = document.querySelector('.header .navbar');
+
+    menuBtn.addEventListener('click', function () {
+        navbar.classList.toggle('active');
+    });
+});
